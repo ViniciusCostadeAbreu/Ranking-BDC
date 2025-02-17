@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family:'revamped';
+    src: url('../fonts/revamped.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+:root{
+    --font1:'revamped', sans-serif;
+    --font2:'Bebas Neue'
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html{
+    height: 100vh;
+    background-color: black;
+    /*background-image: url(../imagens/ringue.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;*/
+}
+
+header{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+header h1 {
+    font-family:var(--font1);
+    font-size: 3em;
+    color: #F6BC02;
+    text-align: center;
+}
+
+section ol li{
+    font-family:var(--font2);
+    font-size: 2em;
+    color: white;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+li>img{
+    width: 25px;
+    height: 25px;
+    padding-left: 10px;
+}
