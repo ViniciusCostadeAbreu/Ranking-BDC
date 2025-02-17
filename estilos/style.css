@@ -30,12 +30,10 @@ body, html{
     background-position: center;*/
 }
 
-header{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-header h1 {
+h1 {
     font-family:var(--font1);
+    padding-top: 80px;
+    padding-bottom: 60px;
     font-size: 3em;
     color: #F6BC02;
     text-align: center;
