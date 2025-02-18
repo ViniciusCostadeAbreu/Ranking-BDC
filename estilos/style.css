@@ -21,7 +21,7 @@
     margin: 0px;
 }
 
-body, html{
+body{
     height: 100vh;
     background-color: black;
     /*background-image: url(../imagens/ringue.jpg);
@@ -30,18 +30,22 @@ body, html{
     background-position: center;*/
 }
 
-h1 {
+
+section h1 {
     font-family:var(--font1);
     padding-top: 80px;
     padding-bottom: 60px;
-    font-size: 3em;
+    font-size: 6vw;
     color: #F6BC02;
     text-align: center;
+}
+section ol{
+    list-style-type: none;
 }
 
 section ol li{
     font-family:var(--font2);
-    font-size: 2em;
+    font-size: 5.2vw;
     color: white;
     padding-bottom: 10px;
     text-align: center;
