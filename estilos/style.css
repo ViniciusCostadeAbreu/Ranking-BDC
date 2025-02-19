@@ -9,8 +9,6 @@
     font-style: normal;
 }
 
-
-
 :root{
     --font1:'revamped', sans-serif;
     --font2:'Bebas Neue'
@@ -23,13 +21,13 @@
 
 body{
     height: 100vh;
-    background-color: black;
-    /*background-image: url(../imagens/ringue.jpg);
+    background-color: rgba(0, 0, 0, 0.685);
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), 
+                url('../imagens/duelo-plateia3.jpg');
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;*/
+    background-position: center;
 }
-
 
 section h1 {
     font-family:var(--font1);
@@ -38,7 +36,11 @@ section h1 {
     font-size: 6vw;
     color: #F6BC02;
     text-align: center;
+    text-shadow: 0 0 40px #F6BC02;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
 }
+
 section ol{
     list-style-type: none;
 }
@@ -49,10 +51,13 @@ section ol li{
     color: white;
     padding-bottom: 10px;
     text-align: center;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000000b2;
 }
 
 li>img{
-    width: 25px;
-    height: 25px;
+    max-width: 3.7vw;
+    width: auto;
+    height: auto;
     padding-left: 10px;
 }
